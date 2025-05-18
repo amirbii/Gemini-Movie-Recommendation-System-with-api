@@ -1,7 +1,7 @@
 import gradio as gr
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyC4MnvV5ebUP1QRey4OTkWc2wZOVVJVwbE1")
+genai.configure(api_key="API")
 model = genai.GenerativeModel('gemini-pro')
 
 
